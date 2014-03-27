@@ -26,6 +26,8 @@ namespace tesseract {
 
 @implementation Tesseract
 
+
+
 - (id)initWithDataPath:(NSString *)dataPath language:(NSString *)language {
     self = [super init];
     if (self) {
